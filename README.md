@@ -41,8 +41,24 @@ This is a subscription management application built with a Python (Flask) backen
    ```bash
    python -m venv venv
    source venv/bin/activate   # Linux/Mac
-   venv\Scripts\activate      # Windows ```
+   venv\Scripts\activate      # Windows 
 3. Install dependencies:
    ```bash
-   pip install -r requirements.txt```
+   pip install -r requirements.txt
+4. Run the Flask server:
+   ```bash
+   python app.py
+   
+### Frontend (ReactJS)
+1. Navigate to the frontend folder.
+2. Install dependencies:
+   ```bash
+   npm install
+3. Start the development server:
+   ```bash
+   npm start
 
+### Usage 
+1. Open the frontend app in a browser (default: http://localhost:3000).
+2. Use the navigation bar to manage customers, products, and subscriptions.
+3. View graphs and statistics on the home page.
